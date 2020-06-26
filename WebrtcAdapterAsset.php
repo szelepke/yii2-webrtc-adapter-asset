@@ -22,8 +22,4 @@ class WebrtcAdapterAsset extends AssetBundle
     public $jsOptions = [
         'position' => View::POS_HEAD,
     ];
-
-    public $depends = [
-        'szelepke\webrtcadapter\WebrtcAdapterAsset',
-    ];
 }
