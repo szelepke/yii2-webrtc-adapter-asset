@@ -1,0 +1,26 @@
+
+{
+    "name": "szelepke/yii2-webrtc-adapter-asset",
+    "description": "Webrtc Adapter asset for Yii2 app",
+    "type": "yii2-extension",
+    "keywords": ["yii2","asset","webrtc","adapter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szelepcsenyi Zsolt",
+            "email": "szelepcsenyi.zsolt@e-vista.hu",
+            "homepage": "https://evista.hu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "npm-asset/webrtc-adapter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "szelepke\\webrtcadapter\\": ""
+        }
+    }
+}
