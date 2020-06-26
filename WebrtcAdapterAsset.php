@@ -13,10 +13,10 @@ use yii\web\View;
  */
 class WebrtcAdapterAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/webrtc-adapter/dist';
+    public $sourcePath = '@npm/webrtc-adapter/out';
     
     public $js = [
-        'adapter_core.js'
+        'adapter.js'
     ];
 
     public $jsOptions = [
